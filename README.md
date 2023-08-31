@@ -12,8 +12,6 @@ This new and updated version of the Horiseon Landing Page features several thing
 
 With these changes, the Horiseon Landing Page should both be fully functional and accessible to all users as well as easy to adapt and update for future web developers looking into the source code.
 
-A copy of both the original html markup and css stylesheet, are labeled in the repository in case anything should happen to the new HTML and CSS pages.
-
 Through this process, I have learned the importance of clearly and effectively ordering the elements between both the HTML and the CSS stylesheets. As challenging as semantic structure is, fully embracing it makes reading, repairing, and updating code down the line significantly easier.
 
 ## Table of Contents (Optional)
