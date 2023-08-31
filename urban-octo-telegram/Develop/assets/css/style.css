@@ -1,15 +1,15 @@
-/*Global Attribute*/
+/*Sheet Global Attribute*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-/*Element Attribute*/
+/*Body Attribute*/
 body {
     background-color: #d9dcd6;
 }
 
-/*Element Attribute*/
+/*Header Box overall Structure and Attribute*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,6 +17,18 @@ body {
     color: #ffffff;
 }
 
+/*Header Font Primary Attribute*/
+.header h1 {
+    font-size: 48px;
+    display: inline-block
+}
+
+/*Header Font Secondary Attribute; makes the SEO in Horiseon a different color*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Header Tab Link Box Primary Structure and Attribute */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -25,26 +37,19 @@ body {
     font-size: 20px;
 }
 
-.header h1 {
-    font-size: 48px;
-    display: inline-block
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
+/*Header Tab Links Positioning Relative to One Another*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*Header Tab Links Font Attribute*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*Element Attribute*/
+/*Forefront Picture Attribute*/
 .hero {
     height: 800px;
     width: 100%;
@@ -54,13 +59,14 @@ a {
     background-position: center;
 }
 
-/*Element Attribute*/
+/*Overall Content Box Strucutre and Attribute*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Content Sections within the Content Box Strucutre and Attribute*/
 .content-format {
     margin-bottom: 20px;
     padding: 50px;
@@ -70,30 +76,35 @@ a {
     color: #ffffff;
 }
 
+/*Content Sections Image Attribute*/
 .content-format img {
     max-height: 200px;
 }
 
+/*Content Sections Header Attribute*/
 .content-format h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Content Sections Primary Text and Image Position Attribute*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Content Sections Secondary Text and Image Position Attribute*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Content Sections Text Font Attribute*/
 p {
     font-size: 16px;
 }
 
-/*Element Attribute*/
+/*Overall Benefit Box Strucutre and Attribute*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,22 +116,26 @@ p {
     background-color: #2589bd;
 }
 
+/*Benefit Sections within the Benefit Box Strucutre and Attribute*/
 .benefit-format {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*Benefit Sections Header Attribute*/
 .benefit-format h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Benefit Sections Image Attribute*/
 .benefit-format img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*Footer Section's Structure and Attribute*/
 .footer {
     padding: 30px;
     clear: both;
@@ -128,6 +143,7 @@ p {
     text-align: center;
 }
 
+/*Footer Section's Header Attribute*/
 .footer h2 {
     font-size: 20px;
 }
