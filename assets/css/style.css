@@ -40,7 +40,7 @@ p {
 }
 
 /*Class Header Tab Link Box Primary Structure and Attribute */
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -49,7 +49,7 @@ p {
 }
 
 /*Class Header Tab Links Positioning Relative to One Another*/
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -137,7 +137,7 @@ p {
 }
 
 /*Class Footer Section's Structure and Attribute*/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -145,6 +145,6 @@ p {
 }
 
 /*Class Footer Section's Header Attribute*/
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
